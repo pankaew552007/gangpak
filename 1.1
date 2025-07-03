@@ -1,0 +1,12 @@
+class student:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def introduce(self):
+        print("สวัสดี ฉันชื่อ", self.name, "อายุ", self.age, "ปี")
+
+s1 = student("ปานแก้ว", 17)
+s1.introduce()
+    
